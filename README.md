@@ -1,5 +1,3 @@
-# aehi
-Asosiasi Energi Hijau Indonesia
 <!DOCTYPE html>
 <html lang="id">
 <head>
@@ -102,7 +100,7 @@ Asosiasi Energi Hijau Indonesia
                 <h2 class="text-4xl md:text-5xl font-bold text-gray-800 mb-6">Baseline AEHI 2025</h2>
                 <p class="text-xl text-gray-600">Status awal organisasi pra-Munas 2026 sebagai fondasi pertumbuhan.</p>
             </div>
-            <div class="grid md:grid-cols-2 gap-12 fade-in">
+            <div class="grid md:grid-cols-1 gap-12 fade-in">
                 <div>
                     <h3 class="text-2xl font-semibold mb-8 text-green-800">Status Kelembagaan</h3>
                     <div class="space-y-4">
@@ -117,23 +115,6 @@ Asosiasi Energi Hijau Indonesia
                         <div class="flex items-center p-4 bg-white rounded-xl shadow-md">
                             <i class="fas fa-users text-indigo-600 text-2xl mr-4"></i>
                             <span>Jejaring calon asesor & mitra akademisi</span>
-                        </div>
-                    </div>
-                </div>
-                <div>
-                    <h3 class="text-2xl font-semibold mb-8 text-green-800">Kuantitatif Awal</h3>
-                    <div class="grid grid-cols-2 gap-4 text-center">
-                        <div class="bg-white p-6 rounded-2xl shadow-lg">
-                            <div class="text-3xl font-bold text-green-600">50</div>
-                            <div class="text-sm text-gray-600">Anggota Awal</div>
-                        </div>
-                        <div class="bg-white p-6 rounded-2xl shadow-lg">
-                            <div class="text-3xl font-bold text-blue-600">5</div>
-                            <div class="text-sm text-gray-600">Asesor Tersertifikasi</div>
-                        </div>
-                        <div class="bg-white p-6 rounded-2xl shadow-lg">
-                            <div class="text-3xl font-bold text-indigo-600">3</div>
-                            <div class="text-sm text-gray-600">Mitra TUK</div>
                         </div>
                     </div>
                 </div>
@@ -155,7 +136,8 @@ Asosiasi Energi Hijau Indonesia
                     <p class="text-xl mb-10 leading-relaxed">Dapatkan akses kegiatan, informasi, dan jejaring profesi energi hijau.</p>
                     <div class="flex flex-col sm:flex-row gap-4 justify-center">
                         <a href="mailto:asosiasienergihijauindonesia@gmail.com" class="bg-white text-green-800 px-8 py-4 rounded-full font-semibold hover:bg-green-100 transition-all duration-300 shadow-lg">Hubungi Kami</a>
-                        <a href="#kontak" class="border-2 border-white px-8 py-4 rounded-full font-semibold hover:bg-white hover:text-green-900 transition-all duration-300">Daftar Sekarang</a>
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSefF7UZwJ4-7FOMoKkNsvMyay_QC3DbtohOk5dBxEjwTGE6ww/viewform" target="_blank" class="border-2 border-white px-8 py-4 rounded-full font-semibold hover:bg-white hover:text-green-900 transition-all duration-300">Daftar Sekarang</a>
+                        <a href="https://wa.me/6282123416800" target="_blank" class="bg-green-900 px-8 py-4 rounded-full font-semibold hover:bg-green-700 transition-all duration-300">Chat WhatsApp</a>
                     </div>
                 </div>
             </div>
@@ -181,6 +163,9 @@ Asosiasi Energi Hijau Indonesia
                     <a href="mailto:asosiasienergihijauindonesia@gmail.com" class="text-2xl hover:text-green-400 transition-all duration-300 transform hover:scale-110" title="Email AEHI">
                         <i class="fas fa-envelope"></i>
                     </a>
+                    <a href="https://wa.me/6282123416800" class="text-2xl hover:text-green-400 transition-all duration-300 transform hover:scale-110" title="WhatsApp AEHI">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
                 </div>
                 <p class="text-sm">&copy; 2025 Asosiasi Energi Hijau Indonesia (AEHI). Semua hak dilindungi.</p>
             </div>
@@ -192,7 +177,7 @@ Asosiasi Energi Hijau Indonesia
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
                 e.preventDefault();
-                document.query.querySelector(this.getAttribute('href')).scrollIntoView({ 
+                document.querySelector(this.getAttribute('href')).scrollIntoView({ 
                     behavior: 'smooth' 
                 });
             });
@@ -210,4 +195,3 @@ Asosiasi Energi Hijau Indonesia
     </script>
 </body>
 </html>
-
